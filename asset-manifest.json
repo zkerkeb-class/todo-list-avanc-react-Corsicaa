@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todo-list-avanc-react-Corsicaa/static/css/main.aa247290.css",
+    "main.js": "/todo-list-avanc-react-Corsicaa/static/js/main.b89fa180.js",
+    "static/js/453.81f383cb.chunk.js": "/todo-list-avanc-react-Corsicaa/static/js/453.81f383cb.chunk.js",
+    "index.html": "/todo-list-avanc-react-Corsicaa/index.html",
+    "main.aa247290.css.map": "/todo-list-avanc-react-Corsicaa/static/css/main.aa247290.css.map",
+    "main.b89fa180.js.map": "/todo-list-avanc-react-Corsicaa/static/js/main.b89fa180.js.map",
+    "453.81f383cb.chunk.js.map": "/todo-list-avanc-react-Corsicaa/static/js/453.81f383cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa247290.css",
+    "static/js/main.b89fa180.js"
+  ]
+}
