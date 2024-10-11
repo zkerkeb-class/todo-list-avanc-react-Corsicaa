@@ -24,12 +24,6 @@
       "react-app/jest"
     ]
   },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -53,5 +47,12 @@
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3"
-  }
+  },
+
+  "lint-staged": {
+  "*.{js,jsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ]
+}
 }
