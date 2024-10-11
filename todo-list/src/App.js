@@ -1,11 +1,12 @@
 import React, { useState, useMemo } from 'react';
-import useTasks from './useTasks';
+import { useTasksContext } from './TasksContext';
 import TodoItem from './components/TodoItem';
 
 function App() {
   const [task, setTask] = useState('');
   const [filter, setFilter] = useState('all');
-  const { tasks, addTask, deleteTask, toggleTaskCompletion } = useTasks();
+  const { tasks, addTask, deleteTask, toggleTaskCompletion } =
+    useTasksContext();
 
   const handleAddTask = () => {
     if (task.trim()) {
